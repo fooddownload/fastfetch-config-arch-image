@@ -1,12 +1,8 @@
-<div align="center">
+# Fastfetch Config
 
-# ⚡ Fastfetch Config
+Clean, minimal system information display for your terminal.
 
-*Clean, minimal system information display for your terminal*
-
-</div>
-
-## 👀 Preview
+## Preview
 
 <table>
 <tr>
@@ -21,61 +17,16 @@
 </tr>
 </table>
 
-## 🚀 Install
+## Install
 
-**1. Install Fastfetch**
+Install [Fastfetch](https://github.com/fastfetch-cli/fastfetch), then:
+
 ```bash
-# Arch
-sudo pacman -S fastfetch
-
-# Ubuntu/Debian
-sudo add-apt-repository ppa:fastfetch-devs/fastfetch
-sudo apt update && sudo apt install fastfetch
-
-# macOS
-brew install fastfetch
-
-# Windows
-scoop install fastfetch
-```
-
-**2. Install Config**
-```bash
-# Linux/macOS
 curl -fsSL https://raw.githubusercontent.com/dacrab/fastfetch-config/main/config.jsonc -o ~/.config/fastfetch/config.jsonc
-
-# Windows (PowerShell)
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/dacrab/fastfetch-config/main/config.jsonc" -OutFile "$env:APPDATA\fastfetch\config.jsonc"
 ```
 
-**3. Install Nerd Font**
+Requires a [Nerd Font](https://www.nerdfonts.com/) for icons.
 
-Download and install any [Nerd Font](https://www.nerdfonts.com/) for proper icons.
+## Customize
 
-**4. Run**
-```bash
-fastfetch
-```
-
-## ✨ Features
-
-- System info (OS, kernel, uptime, packages)
-- Hardware specs (CPU, GPU, memory, disk)  
-- Desktop environment details
-- Color palette display
-
-## 🎨 Customize
-
-Edit the config file:
-- **Linux/macOS**: `~/.config/fastfetch/config.jsonc`
-- **Windows**: `%APPDATA%\fastfetch\config.jsonc`
-
-See [Fastfetch docs](https://github.com/fastfetch-cli/fastfetch/wiki/Configuration) for options.
-
----
-
-<div align="center">
-
-*Made with ❤️ for terminal enthusiasts*
-
-</div>
+Edit `~/.config/fastfetch/config.jsonc` — see [Fastfetch docs](https://github.com/fastfetch-cli/fastfetch/wiki/Configuration) for options.
